@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{e622dd58-b04f-48a7-ac4a-9d526ac9ded9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerDaemon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerDaemonPages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerDaemonData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="LineWidget.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelExport.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="TransKey.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="trtext.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ServerDaemon.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MsgBox.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ServerDaemon.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ServerDaemonPages.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MsgBox.h">
+      <Filter>utility</Filter>
+    </QtMoc>
+    <QtMoc Include="trtext.h">
+      <Filter>utility</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerDaemonData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineWidget.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelExport.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

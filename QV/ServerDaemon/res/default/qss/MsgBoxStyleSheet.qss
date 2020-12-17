@@ -1,0 +1,49 @@
+QWidget{
+	font:14px;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+}
+#border{
+	border:1px solid #333333;
+	background:#232323;
+}
+
+QLabel#LbTitle{
+	font-weight:bold;
+}
+
+#line{
+	margin:0px 11px;
+	border-top: 1px solid #333333;
+}
+QLabel#LbIcon{
+	border-image: url(res/default/image/serverdaemon/warning)no-repeat center;
+}
+
+QPushButton{
+	background:#484D58;
+	border-radius:2px;
+}
+
+QPushButton:hover{
+	background:#6a6f7a;	
+}
+
+QPushButton:Pressed{
+	background:#484d58;	
+}
+
+QPushButton#BtnClose{
+	background: url(res/default/image/serverdaemon/close) no-repeat right;
+}
+
+QPushButton:hover#BtnClose{
+	background: url(res/default/image/serverdaemon/close_hover)no-repeat right;
+}
+
+
+
+
+
+
+
