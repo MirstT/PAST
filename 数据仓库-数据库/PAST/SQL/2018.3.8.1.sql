@@ -1,0 +1,11 @@
+USE Demo
+GO
+
+ALTER TABLE Employee
+DROP CONSTRAINT PK_Employee
+GO
+
+ALTER TABLE Employee
+DROP CONSTRAINT CK_EmployeeId
+GO
+  
